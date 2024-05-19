@@ -1,0 +1,3 @@
+return {
+  "SergioRibera/codeshot.nvim"
+}
