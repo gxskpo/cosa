@@ -3,7 +3,7 @@ return {
     config = function()
         require("codeshot").setup({
             silent = true,
-            window_controls = true,
+            window_controls = false,
             show_line_numbers = false,
             use_current_theme = false,
             theme = 'gruvbox-dark',

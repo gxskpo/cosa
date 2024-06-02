@@ -1,5 +1,6 @@
 vim.o.clipboard = "unnamedplus"
-vim.g.mapleader = " "
+vim.g.mapleader = ","
+vim.g.maplocalleader = ","
 
 function toggle_buffer_neotree()
     local neotree_win = vim.fn.bufwinnr("Neotree")
@@ -13,3 +14,10 @@ function toggle_buffer_neotree()
 end
 
 vim.api.nvim_set_keymap('n', '<C-f>', ":lua toggle_buffer_neotree()<CR>", { noremap = true })
+
+-- telescope
+
+local builtin = require('telescope.builtin')
+
+vim.keymap.set('n', '<leader>f', builtin.find_files, {})
+vim.keymap.set('n', '<leader>,', builtin.buffers, {})
