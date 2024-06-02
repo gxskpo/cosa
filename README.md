@@ -13,12 +13,17 @@ Hi there! this is my neovim config, using [lazy.nvim](https://github.com/folke/l
 
 ## Keymaps
 
+### Normal mode
 - `Ctrl + f`
 - `, + f`: Find files (Telescope)
 - `, + ,`: See buffers (Telescope)
 - `Shift + l`: Jump to next buffer
 - `Shift + h`: Jump to previous buffer
 - `, + .`: Close buffer
+- `K`: Lsp hover
+- `gd`: Lsp definition
+- `gi`: Lsp implementation
+- `gr`: Lsp references
 
 ## Plugins
 
