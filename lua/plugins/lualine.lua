@@ -1,7 +1,7 @@
 -- Bubbles config from https://github.com/nvim-lualine/lualine.nvim/blob/master/examples/bubbles.lua
 
 local colors = {
-    -- catppuccin colors
+    -- Catppuccin colors
     blue   = '#94e2d5',
     cyan   = '#79dac8',
     black  = '#11111b',
@@ -34,6 +34,8 @@ return {
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' },
     config = function()
+        vim.o.cmdheight = 0
+        
         require('lualine').setup {
             options = {
                 theme = bubbles_theme,

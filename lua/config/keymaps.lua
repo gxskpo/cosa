@@ -21,3 +21,10 @@ local builtin = require('telescope.builtin')
 
 vim.keymap.set('n', '<leader>f', builtin.find_files, {})
 vim.keymap.set('n', '<leader>,', builtin.buffers, {})
+
+-- bufferline
+vim.keymap.set('n', '<S-l>', '<CMD>BufferLineCycleNext<CR>')
+vim.keymap.set('n', '<S-h>', '<CMD>BufferLineCyclePrev<CR>')
+
+-- bufdel
+vim.keymap.set('n', '<leader>.', "<CMD>BufDel<CR>", {})

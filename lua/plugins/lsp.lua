@@ -1,13 +1,14 @@
 return {
     -- LSP Configuration & Plugins
     {
+        -- Config lsp
         'neovim/nvim-lspconfig',
         config = function()
-            -- Auto-configure LSP servers installed via Mason
             require('plugins.lsp')
         end,
     },
     {
+        -- Add lsp manager
         'williamboman/mason.nvim',
         'williamboman/mason-lspconfig.nvim',
         config = function()
@@ -16,6 +17,7 @@ return {
         end
     },
     {
+        -- Add autocomplete
         'hrsh7th/nvim-cmp',
         dependencies = {
             'hrsh7th/cmp-nvim-lsp',

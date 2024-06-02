@@ -1,0 +1,49 @@
+<div align="center">
+
+# My Neovim config
+
+Hi there! this is my neovim config, using [lazy.nvim](https://github.com/folke/lazy.nvim) as plugin manager
+
+![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
+
+**Leader key** : `,` <br>
+**Colorscheme** : [catppuccin](https://github.com/catppuccin/nvim) <br>
+
+</div>
+
+## Keymaps
+
+- `Ctrl + f`
+- `, + f`: Find files (Telescope)
+- `, + ,`: See buffers (Telescope)
+- `Shift + l`: Jump to next buffer
+- `Shift + h`: Jump to previous buffer
+- `, + .`: Close buffer
+
+## Plugins
+
+### LSP
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - Configures nvim lsp
+- [mason.nvim](https://github.com/williamboman/mason.nvim) - LSP Manager
+- [nvim.cmp](https://github.com/hrsh7th/nvim-cmp) - Autocomplete 
+
+### Editor
+- [catppuccin](https://github.com/catppuccin/nvim) - Catppuccin colorscheme
+- [auto-pairs](https://github.com/jiangmiao/auto-pairs) - Auto close braces, quotes and parentheses
+- [gitgutter](https://github.com/airblade/vim-gitgutter) - Show git diff
+- [neoformat](https://github.com/sbdchd/neoformat) - Formatter
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Syntax highlighting
+- [nvim-bufdel](https://github.com/ojroques/nvim-bufdel) - Close buffers preserving windows layout
+
+### UI
+- [transparent.nvim](https://github.com/xiyaowong/transparent.nvim) - Add transparency to neovim
+- [noice.nvim](https://github.com/folke/noice.nvim) - Replace cmdline & add better notifications
+- [fidget.nvim](https://github.com/j-hui/fidget.nvim) - Add UI to LSP messages
+- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - Fuzzy finder
+- [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) - Add file explorer
+- [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - Add status bar (bubbles theme)
+- [bufferline.nvim](https://github.com/akinsho/bufferline.nvim) - Add 'tabs' 
+
+### Misc
+- [codeshot.nvim](https://github.com/SergioRibera/codeshot.nvim) - Take screenshots right in the editor 
+- [neocord](https://github.com/IogaMaster/neocord) - Discord rich presence
