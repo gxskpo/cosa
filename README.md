@@ -24,6 +24,10 @@ Hi there! this is my neovim config, using [lazy.nvim](https://github.com/folke/l
 - `gd`: Lsp definition
 - `gi`: Lsp implementation
 - `gr`: Lsp references
+- `, + ss` - Take a screenshot of the current file
+
+### Visual Mode
+- `, + ss` - Take a screenshot of the selected text
 
 ## Plugins
 

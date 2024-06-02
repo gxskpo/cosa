@@ -15,7 +15,7 @@ return {
                 window_controls = false,
                 show_line_numbers = false,
                 use_current_theme = false,
-                theme = 'gruvbox-dark',
+                theme = 'Catppuccin Mocha',
                 background = "#F1D3DE",
                 author_color = '#000',
                 output = "raw"
