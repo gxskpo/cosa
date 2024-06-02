@@ -30,7 +30,7 @@ Hi there! this is my neovim config, using [lazy.nvim](https://github.com/folke/l
 ### LSP
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - Configures nvim lsp
 - [mason.nvim](https://github.com/williamboman/mason.nvim) - LSP Manager
-- [nvim.cmp](https://github.com/hrsh7th/nvim-cmp) - Autocomplete 
+- [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - Autocomplete 
 
 ### Editor
 - [catppuccin](https://github.com/catppuccin/nvim) - Catppuccin colorscheme
